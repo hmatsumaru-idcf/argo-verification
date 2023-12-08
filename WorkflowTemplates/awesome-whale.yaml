@@ -2,6 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: WorkflowTemplate
 metadata:
   name: simple-workflow-template
+  namespace: argo
 spec:
   entrypoint: whalesay
   templates:
